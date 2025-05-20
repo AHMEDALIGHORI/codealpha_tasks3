@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Ahmed Ali Ghori - Frontend Developer from Pakistan">
+    <meta name="keywords" content="Frontend Developer, Web Developer, Pakistan, Iqra University">
+    <meta property="og:title" content="Ahmed Ali Ghori - Frontend Developer">
+    <meta property="og:description" content="Professional portfolio showcasing web development expertise">
+    <title>Ahmed Ali Ghori | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Ahmed Ali Ghori</h1>
+                    <p class="hero-subtitle">Frontend Developer</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="cta-button">Get in Touch</a>
+                        <a href="#projects" class="cta-button secondary">View Work</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="avatar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#expertise" class="nav-item">Expertise</a></li>
+                <li><a href="#experience" class="nav-item">Experience</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="section" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading" class="section-heading">Professional Profile</h2>
+                <div class="about-content">
+                    <p class="about-text">Computer Science graduate from Iqra University with 3+ years of experience in developing responsive web applications. Specialized in modern JavaScript frameworks and accessibility-first development.</p>
+                    <div class="education">
+                        <h3 class="education-title">Education</h3>
+                        <div class="education-item">
+                            <p class="degree">BSc Computer Science</p>
+                            <p class="institution">Iqra University</p>
+                            <p class="duration">2018 - 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise" class="section bg-light" aria-labelledby="expertise-heading">
+            <div class="container">
+                <h2 id="expertise-heading" class="section-heading">Technical Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h3 class="skill-title">HTML5</h3>
+                        <p class="skill-description">Semantic markup, Accessibility (WCAG), SEO optimization</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-title">CSS3</h3>
+                        <p class="skill-description">Flexbox, Grid, Animations, CSS Architecture</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js skill-icon"></i>
+                        <h3 class="skill-title">JavaScript</h3>
+                        <p class="skill-description">ES6+, Functional Programming, Web APIs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading" class="section-heading">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image" style="background-image: url('project1-thumbnail.jpg')"></div>
+                        <div class="project-content">
+                            <h3 class="project-title">Enterprise E-commerce Platform</h3>
+                            <p class="project-description">Led frontend development for scalable shopping solution</p>
+                            <ul class="tech-stack">
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>TypeScript</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image" style="background-image: url('project2-thumbnail.jpg')"></div>
+                        <div class="project-content">
+                            <h3 class="project-title">Analytics Dashboard</h3>
+                            <p class="project-description">Data visualization platform with real-time updates</p>
+                            <ul class="tech-stack">
+                                <li>D3.js</li>
+                                <li>Chart.js</li>
+                                <li>WebSockets</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-dark" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading" class="section-heading light">Let's Connect</h2>
+                <div class="contact-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required placeholder="Project Details"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-heading">Ahmed Ali Ghori</h4>
+                    <p class="footer-text">Frontend Developer</p>
+                    <p class="footer-text">Karachi, Pakistan</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Connect</h4>
+                    <ul class="social-links">
+                        <li><a href="#" aria-label="LinkedIn profile"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#" aria-label="GitHub profile"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#" aria-label="Twitter profile"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="year"></span> Ahmed Ali Ghori. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
